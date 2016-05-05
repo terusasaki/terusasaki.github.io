@@ -1,0 +1,96 @@
+body{
+    font-size: 14px;
+    font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+    background-image: url('bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*
+nav{
+    background-color:white;
+    text-align:center;
+}
+
+nav ul li{
+    text-align:center;
+    font-weight:bold;
+    color:gray;
+    display:inline-block;
+    margin:0 15px;
+    
+}
+
+nav ul li.selected{
+    color:black;
+}
+
+*/
+
+nav ul li a{
+   margin:0 10px;
+}
+
+footer{
+    
+    margin-top:10px;
+    padding:20px 0;
+    text-align:center;
+    background-color:silver;  
+    font-size:90%;
+    color:#666;
+}
+
+.sections{
+    background-color:#fff;
+    margin:10px auto 0;
+    padding:30px 40px;
+    -webkit-border-top-left-radius:5px;  
+    -webkit-border-top-right-radius:5px;  
+    -webkit-border-bottom-right-radius:5px;  
+    -webkit-border-bottom-left-radius:5px;
+}
+
+/*About 製品名*/
+section h2{
+  padding: 10px 0 20px 0;
+  text-align: center;
+  letter-spacing: 0.15em;
+  font-weight: bold;
+
+}
+
+/*アイコン*/
+section h3.icon{
+    text-align:center;
+    font-size:5em;
+}
+
+/*サービス画像*/
+.image{
+ text-align:center;
+}
+
+#me{
+    margin:40px;
+    padding:20px 0;
+    text-align:center;
+    
+}
+
+#me img{
+    max-width:120%;
+    border-radius: 100%;
+    border:5px solid #fff;
+}
+
+#me h1{
+  letter-spacing: 0.2em;
+  color: #fff;
+  text-shadow: 1px 1px 0px #000;
+}
+
+.container{
+    margin: -50px auto 0;
+}
