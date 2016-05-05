@@ -60,3 +60,18 @@ section h3.icon{
 .container{
   margin: -50px auto 0;
 }
+
+footer {
+  margin-top:10px;
+  padding: 20px 0;
+  font-size: 93%;
+  text-align: center;
+  background-color: #ccc;
+  color: #666;
+  
+}
+
+footer ul li{
+  padding:0 10px;
+  display:inline-block;
+}
